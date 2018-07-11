@@ -1,0 +1,91 @@
+body
+{
+	background-color: #999;
+	overflow-x: hidden;
+}
+
+.navigation
+{
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	background-color: #93bcff;
+}
+
+.navigation a
+{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 16px;
+	text-align: center;
+	padding: 20px 20px;
+	color: black;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    color: black;
+    padding: 20px 20px;
+    font-size: 16px;
+    font-family: fantasy;
+    border: none;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: fixed;
+    display: inline-block;
+    margin: 0px 50px 0px 0px;
+    right: 0;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 9px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #b5d1ff;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #dbe8ff;}
+
+.navigation a:hover
+{
+	background-color: #b5d1ff;
+}
+
+a:link
+{
+	font-family: fantasy;
+}
+
+a:visited
+{
+	font-family: fantasy;
+	color: black;
+}
+
+footer
+{
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+}
